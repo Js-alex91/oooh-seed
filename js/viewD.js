@@ -1,4 +1,3 @@
-const { createLogger } = require("vite");
 
 //output
 let output = 8;
