@@ -17,8 +17,6 @@ alert(calculation);
 BContainer.innerHTML += `<a id="linkToC" href="view-C.html?calculation=${calculation}">Go to C</a>`
 
 
-
-
 //----------------------- second process
 let numberContainer = document.getElementById('showNumberFromA')
 let showOutputFromD = document.getElementById('showOutputFromD')
