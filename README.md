@@ -1,7 +1,13 @@
-# oooh-seed
+### `ejercicios`
 
+### `Pre condición`
 git clone https://github.com/Js-alex91/oooh-seed.git
-git checkout ejercicios 
-npm run dev 
+
+### `pasos`
+git checkout ejercicios
+npm run dev
+ 
+### `Resultado Esperado` 
+"Levantar proyecto en puerto 3000"
 
 :) 
