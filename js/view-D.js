@@ -66,21 +66,37 @@ let sound = new Audio();
 sound.src = "sonido.mp3";
 
 
-const one = document.getElementById('mod-one');
-const two = document.getElementById('mod-two');
+const original = document.getElementById('mod-one');
+const orange = document.getElementById('mod-two');
 
-one.addEventListener('click', () => {
-    document.body.classList.remove('bg-3');
-    document.body.classList.remove('bg-4');
-    document.body.classList.add('bg-1');
-    document.body.classList.add('bg-2');
+original.addEventListener('click', () => {
+    document.getElementById("box-1").classList.remove('bg-3');
+    document.getElementById("box-2").classList.remove('bg-4');
+    document.getElementById("box-3").classList.remove('bg-3');
+    document.getElementById("box-4").classList.remove('bg-4');
+    document.getElementById("box-5").classList.remove('bg-3');
+    document.getElementById("box-6").classList.remove('bg-4');
+    document.getElementById("box-1").classList.add('bg-1');
+    document.getElementById("box-2").classList.add('bg-2');
+    document.getElementById("box-3").classList.add('bg-1');
+    document.getElementById("box-4").classList.add('bg-2');
+    document.getElementById("box-5").classList.add('bg-1');
+    document.getElementById("box-6").classList.add('bg-2');
 })
 
-two.addEventListener('click', () => {
-    document.body.classList.remove('bg-1');
-    document.body.classList.remove('bg-2');
-    document.body.classList.add('bg-3');
-    document.body.classList.add('bg-4');
+orange.addEventListener('click', () => {
+    document.getElementById("box-1").classList.remove('bg-1');
+    document.getElementById("box-2").classList.remove('bg-2');
+    document.getElementById("box-3").classList.remove('bg-1');
+    document.getElementById("box-4").classList.remove('bg-2');
+    document.getElementById("box-5").classList.remove('bg-1');
+    document.getElementById("box-6").classList.remove('bg-2');
+    document.getElementById("box-1").classList.add('bg-3');
+    document.getElementById("box-2").classList.add('bg-4');
+    document.getElementById("box-3").classList.add('bg-3');
+    document.getElementById("box-4").classList.add('bg-4');
+    document.getElementById("box-5").classList.add('bg-3');
+    document.getElementById("box-6").classList.add('bg-4');
 })
 
 /*
